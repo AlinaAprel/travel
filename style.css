@@ -1,0 +1,50 @@
+@import url('./blocks/header/header.css');
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/video/video.css');
+@import url('./blocks/comments/comments.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/places/places.css');
+@import url('./blocks/cover/cover.css');
+
+body {
+	background: #2A2C2F;
+}
+
+html {
+	font-size: 16px;
+}
+
+@font-face {
+	font-family:'Inter';
+	src:
+	url(./Fonts/Inter/bold/Inter-Black.eot) format('eot'),
+	url(./Fonts/Inter/bold/Inter-Black.ttf) format('ttf'),
+	url(./Fonts/Inter/bold/Inter-Black.woff) format('woff'),
+	url(./Fonts/Inter/bold/Inter-Black.woff2) format('woff2');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family:'Inter';
+	src:
+	url(./Fonts/Inter/italic/Inter-ExtraLightItalicBETA.eot) format('eot'),
+	url(./Fonts/Inter/italic/Inter-ExtraLightItalicBETA.ttf) format('ttf'),
+	url(./Fonts/Inter/italic/Inter-ExtraLightItalicBETA.woff) format('woff'),
+	url(./Fonts/Inter/italic/Inter-ExtraLightItalicBETA.woff2) format('woff2');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family:'Inter';
+	src:
+	url(./Fonts/Inter/normal/Inter-Regular.eot) format('eot'),
+	url(./Fonts/Inter/normal/Inter-Regular.ttf) format('ttf'),
+	url(./Fonts/Inter/normal/Inter-Regular.woff) format('woff'),
+	url(./Fonts/Inter/normal/Inter-Regular.woff2) format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}

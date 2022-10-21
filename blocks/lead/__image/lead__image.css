@@ -1,0 +1,45 @@
+.lead__image {
+    height: 554.13px;
+  
+    background-color: white;
+}
+
+@media screen and (min-width: 320px) {
+    .lead__image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        width: calc(100% - 48px);
+        height: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        width: 984px;
+        height: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .lead__image {
+        width: 984px;
+    }
+}

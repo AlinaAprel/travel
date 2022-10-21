@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .comments__item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-bottom: 30px;
+    }
+
+    .comments__item:last-of-type {
+        margin-bottom: 0px;
+    }
+}

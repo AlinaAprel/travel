@@ -1,0 +1,22 @@
+.video__container {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) {
+    .video__container {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video__container {
+        flex-direction: row;
+    }
+}
